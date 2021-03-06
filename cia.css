@@ -31,7 +31,7 @@ input[type=submit],input[type=button]{-webkit-appearance:none;outline:none}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .clear{clear:both}
 .img-cover{object-fit:cover}
-@font-face{font-family: 'iconfont'; /* project id 2402695 */ src: url('//at.alicdn.com/t/font_2402695_bu8k9hhoz67.eot'); src: url('//at.alicdn.com/t/font_2402695_bu8k9hhoz67.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_2402695_bu8k9hhoz67.woff2') format('woff2'), url('//at.alicdn.com/t/font_2402695_bu8k9hhoz67.woff') format('woff'), url('//at.alicdn.com/t/font_2402695_bu8k9hhoz67.ttf') format('truetype'), url('//at.alicdn.com/t/font_2402695_bu8k9hhoz67.svg#iconfont') format('svg');}
+@font-face{font-family: 'iconfont'; /* project id 2402695 */ src: url('//at.alicdn.com/t/font_2402695_j3pf779ivhi.eot'); src: url('//at.alicdn.com/t/font_2402695_j3pf779ivhi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_2402695_j3pf779ivhi.woff2') format('woff2'), url('//at.alicdn.com/t/font_2402695_j3pf779ivhi.woff') format('woff'), url('//at.alicdn.com/t/font_2402695_j3pf779ivhi.ttf') format('truetype'), url('//at.alicdn.com/t/font_2402695_j3pf779ivhi.svg#iconfont') format('svg');}
 .fa{font-family:"iconfont" !important;font-size:14px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}
 /*全局color*/
 a{color:#6b7386;}
@@ -98,7 +98,7 @@ body{background:#f1f5f8;color:#6b7386;}
 .header .nav-bar li{display:inline-block;height:78px;line-height:78px;position:relative;vertical-align:top;}
 .header .nav-bar li a{display:inline-block;padding:0 15px;color:#6b7386;font-size:16px;position:relative;z-index:2;min-width:68px;text-align:center}
 .header .nav-bar li em[class*="dot"]{display:inline-block;position:relative;left:-10px;z-index:1;width:16px;}
-.header .nav-bar li em[class*="dot"] .fa{color:#666;font-size:16px;width:16px;display:block;}
+.header .nav-bar li em[class*="dot"] .fa{color:#666;font-size:1px;width:16px;display:block;}
 .header .nav-bar li a:hover{color:#e50f07;transition: all 500ms ease;}
 .header .nav-bar li.active:before,.header .nav-bar li[class*="li-cate-"]:before{position: absolute;content: '';background: #e50f07;width: 0;height: 3px;left: 0px;right:0;margin:0px auto;bottom:18px;transition: all 500ms ease;-webkit-mask-image: linear-gradient(-75deg, rgba(244, 55, 55, 0.24) 50%, #f43737 50%, rgba(0,0,0,1) 70%);-webkit-mask-size: 200%;animation: shine 2s infinite;}
 .header .nav-bar li.active:after,.header .nav-bar li[class*="li-cate-"]:after{position: absolute;content: '';background: #ffffff;width: 6px;height: 3px;right: 32%;bottom:18px;transition: all 300ms ease;}
